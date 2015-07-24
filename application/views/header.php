@@ -30,7 +30,7 @@
               <div class="navbar-inner">
                 <div class="container-fluid">
                   <a class="brand" href="<?php echo $base; ?>">cbm cost management</a>
-                  <a class="brand" style="float:right;" href="<?php echo $base; ?>/login/logout">Logout</a>
+                  <a class="brand" style="float:right;" href="<?php echo $base; ?>login/logout">Logout</a>
                 </div>
               </div>
             </div>
@@ -38,11 +38,11 @@
   <div class="row-fluid">
     <div class="span2">
         <ul class="nav nav-pills nav-stacked">
-            <li <?php if($current_menu == 'refcreation') : ?> class="active" <?php endif; ?>><a href="<?php echo $base; ?>/refcreation">Ref Creation</a></li>
-            <li <?php if($current_menu == 'modelcreation') : ?> class="active" <?php endif; ?>><a href="<?php echo $base; ?>/modelcreation">Model Creation</a></li>
-            <li <?php if($current_menu == 'cbm') : ?> class="active" <?php endif; ?>><a href="<?php echo $base; ?>/cbm">CBM</a></li>
-            <li <?php if($current_menu == 'cost') : ?> class="active" <?php endif; ?>><a href="<?php echo $base; ?>/cost">Cost</a></li>
-            <li <?php if($current_menu == 'reports') : ?> class="active" <?php endif; ?>><a href="<?php echo $base; ?>/reports">Reports</a></li>
+            <li <?php if($current_menu == 'refcreation') : ?> class="active" <?php endif; ?>><a href="<?php echo $base; ?>refcreation">Ref Creation</a></li>
+            <li <?php if($current_menu == 'modelcreation') : ?> class="active" <?php endif; ?>><a href="<?php echo $base; ?>modelcreation">Model Creation</a></li>
+            <li <?php if($current_menu == 'cbm') : ?> class="active" <?php endif; ?>><a href="<?php echo $base; ?>cbm">CBM</a></li>
+            <li <?php if($current_menu == 'cost') : ?> class="active" <?php endif; ?>><a href="<?php echo $base; ?>cost">Cost</a></li>
+            <li <?php if($current_menu == 'reports') : ?> class="active" <?php endif; ?>><a href="<?php echo $base; ?>reports">Reports</a></li>
         </ul>
     </div>
     <div class="span10">
