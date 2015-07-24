@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>cbm cost management</title>
-    <link href="<?php echo $base; ?>/themes/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo $base; ?>/themes/css/style.css" rel="stylesheet">
+    <link href="<?php echo $base; ?>themes/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $base; ?>themes/css/style.css" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="<?php echo $base; ?>/themes/js/html5shiv.min.js"></script>
       <script src="<?php echo $base; ?>/themes/js/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript" src="<?php echo $base; ?>/themes/js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="<?php echo $base; ?>/themes/js/handlebars-1.0.rc.1.js"></script>
-    <script type="text/javascript" src="<?php echo $base; ?>/themes/js/simplePagingGrid-0.6.0.0.js"></script>
-    <script type="text/javascript" src="<?php echo "$base/themes/js/"?>jquery.fancybox.js?v=2.1.5"></script>
-    <link rel="stylesheet" type="text/css" href="<?php echo "$base/themes/css/"?>jquery.fancybox.css?v=2.1.5" media="screen" />
-    <link rel="stylesheet" type="text/css" href="<?php echo "$base/themes/css/"?>bootstrap-datetimepicker.css" media="screen" />
-    <link rel="stylesheet" href="<?php echo "$base/themes/css/"?>jquery-ui.css">
-    <script src="<?php echo "$base/themes/js/"?>jquery-ui.js"></script>
-    <script src="<?php echo "$base/themes/js/"?>excelexport.js"></script>
+    <script type="text/javascript" src="<?php echo $base; ?>themes/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="<?php echo $base; ?>themes/js/handlebars-1.0.rc.1.js"></script>
+    <script type="text/javascript" src="<?php echo $base; ?>themes/js/simplePagingGrid-0.6.0.0.js"></script>
+    <script type="text/javascript" src="<?php echo "$basethemes/js/"?>jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="<?php echo "$basethemes/css/"?>jquery.fancybox.css?v=2.1.5" media="screen" />
+    <link rel="stylesheet" type="text/css" href="<?php echo "$basethemes/css/"?>bootstrap-datetimepicker.css" media="screen" />
+    <link rel="stylesheet" href="<?php echo "$basethemes/css/"?>jquery-ui.css">
+    <script src="<?php echo "$basethemes/js/"?>jquery-ui.js"></script>
+    <script src="<?php echo "$basethemes/js/"?>excelexport.js"></script>
   </head>
   
 <body>
